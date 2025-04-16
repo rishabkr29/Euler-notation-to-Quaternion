@@ -1,8 +1,6 @@
 
 ## Euler Angles and Quaternion Conversion
 
-In robotics and computer graphics, both **Euler angles** and **Quaternions** are commonly used for rotation representations. Below is an overview of how these conversions are handled in the code:
-
 ### **Euler Angles to Quaternion**
 Euler angles are typically defined by **roll**, **pitch**, and **yaw** (rotation about the X, Y, and Z axes respectively). These angles are converted to a **Quaternion**, which is often preferred for its ability to avoid gimbal lock and provide smooth interpolations.
 
